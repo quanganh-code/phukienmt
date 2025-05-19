@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head section containing metadata and links to external resources -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_Task 6.css">
+    <title>TheStore</title> <!-- Sets the title of the webpage -->
+</head>
+<body>
+<!-- Body section containing the content of the webpage -->
+    <header>
+	<!-- Header section with the website's title -->
+        <h1>TheStore</h1>
+    </header>
+    <section class="products">
+	<!-- Section for displaying product listings -->
+	<div class="product-container">
+	<!-- Container for product items -->
+       <div class="product">
+	   <!-- Individual product item contains image, name, model and price, 
+	   Button to add the product to the cart -->
+            <img src="Intel Core i9-11900K.jpg" alt="Product 1" width="200" height="150">
+            <h2>Intel Core i9-11900K</h2>
+            <p>Model: BX8070811900K</p>
+            <p>Price: $539.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product">
+            <img src="NVIDIA GeForce RTX 3080 Ti.jpg" alt="Product 1" width="200" height="150">
+            <h2>NVIDIA GeForce RTX 3080 Ti</h2>
+            <p>Model: VCG3080T12TFXPPB</p>
+            <p>Price: $1199.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product">
+            <img src="Corsair Vengeance RGB Pro 32GB.jpeg" alt="Product 1" width="200" height="150">
+            <h2>Corsair Vengeance RGB Pro 32GB</h2>
+            <p>Model: CMW32GX4M2C3200C16</p>
+            <p>Price: $189.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product">
+            <img src="Samsung 980 Pro 1TB.jpg" alt="Product 1" width="200" height="150">
+            <h2>Samsung 980 Pro 1TB</h2>
+            <p>Model: MZ-V8P1T0B/AM</p>
+            <p>Price: $199.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product">
+            <img src="Intel Core i7-13700K.jpg" alt="Product 1" width="200" height="150">
+            <h2>CPU</h2>
+            <p>Model: Intel Core i7-13700K</p>
+            <p>Price: $419.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product">
+            <img src="ASUS TUF Gaming Z690-Plus WiFi.jpg" alt="Product 1" width="200" height="150">
+            <h2>Motherboard</h2>
+            <p>Model: ASUS TUF Gaming Z690-Plus WiFi</p>
+            <p>Price: $159.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product">
+            <img src="Team Group 128GB Elite microSDXC.jpg" alt="Product 1" width="200" height="150">
+            <h2>RAM</h2>
+            <p>Model: Team Group 128GB Elite microSDXC</p>
+            <p>Price: $6.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+        
+        <!-- Add more products here -->
+		</div>
+    </section>
+	
+    <section class="cart">
+	<!-- Section for displaying the shopping cart -->
+        <h2>Shopping Cart</h2>
+		<!-- Heading for the cart section -->
+        <ul id="cart-items">
+            <!-- Unordered list to display cart items -->
+            <!-- Cart items will be displayed here dynamically -->
+        </ul>
+        <p>Total Price: $<span id="total-price">0.00</span></p>
+		<!-- Display of the total price of items in the cart -->
+        <button id="checkout">Done</button>
+		<!-- Button to complete the purchase -->
+    </section>
+    <script src="script_Task 6.js"></script>
+</body>
+</html>
